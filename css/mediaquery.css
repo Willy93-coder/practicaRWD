@@ -10,7 +10,34 @@
 /* *** Tablet *** */
 /* Vertical */
 @media only screen and (min-device-width: 768px) and (orientation:portrait){
+    .contenido{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 0px repeat(8, 1fr);
+        grid-template-rows: 380px 1fr 200px;
+        grid-column-gap: 20px;
+    }
+    
+    header{
+        display: grid;
+        grid-template-columns: 0px repeat(8, 1fr);
+        grid-template-rows: 80px 300px;
+        grid-column: 1/span-1;
+        grid-row: 1;
+    }
 
+    .banner{
+        grid-column: 1/span-1;
+        grid-row: 2/3;
+    }
+
+    main{
+        grid-column: 1/span-1;
+    }
+
+    footer{
+        grid-column: 1/span-1;
+    }
 }
 
 /* Horizontal */

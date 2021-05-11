@@ -1,2 +1,25 @@
 /* CSS GRID */
 /* **************************************************************** */
+
+/* Grid movil */
+
+.contenido{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0px repeat(4, 1fr);
+    grid-template-rows: 50px 1fr 100px;
+    grid-column-gap: 10px;
+}
+
+header{
+    grid-column: 1/span-1;
+}
+
+main{
+    grid-column: 1/span-1;
+}
+
+footer{
+    grid-column: 1/span-1;
+}
+

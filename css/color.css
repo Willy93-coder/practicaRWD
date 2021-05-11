@@ -1,2 +1,25 @@
 /* CSS COLOR */
+/* Variables de colores */
+:root{
+    --colorHeader: #FF0000;
+    --colorMain: yellow;
+    --colorBanner: #2484CA;
+    --colorFooter: #2DD251;
+}
 /* **************************************************************** */
+
+header{
+    background-color: var(--colorHeader);
+}
+
+.banner{
+    background: var(--colorBanner);
+}
+
+main{
+    background-color: var(--colorMain);
+}
+
+footer{
+    background-color: var(--colorFooter);
+}
